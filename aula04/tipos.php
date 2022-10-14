@@ -8,9 +8,9 @@
     </head>
     <body>
         <?php
-            $numero = 4;
-            $nome = "Gustavo";
-            echo $nome;
+            $nome = "Raffyta";
+            $idade = 18;
+            echo "$nome tem $idade anos!";
         ?>
     </body>
 </html>
