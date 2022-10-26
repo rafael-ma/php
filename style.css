@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+* {
+    line-height: 2em;
+}
+
+div {
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 13px;
+}
