@@ -10,8 +10,9 @@
     <body>
         <div>
             <?php
-                $ano_atual = $_GET["a"];
-                echo "O ano atual é $ano_atual e o ano anterior é ". --$ano_atual;
+                $site = "cursoemvideo";
+                $$site = "cursoPHP";
+                echo "Site: $site, Curso: ". $$site;
             ?>
         </div>
     </body>

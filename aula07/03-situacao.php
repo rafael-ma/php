@@ -5,13 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../style.css">
-        <title>Operadores</title>
+        <title>Situação</title>
     </head>
     <body>
         <div>
             <?php
-                $ano_atual = $_GET["a"];
-                echo "O ano atual é $ano_atual e o ano anterior é ". --$ano_atual;
+                $nota1 = $_GET["n1"];
+                $nota2 = $_GET["n2"];
+                $m = ($nota1 + $nota2)/2;
+                echo "Média do aluno: $m <br>Situação do aluno: ". (($m >= 6)?"Aprovado":"Reprovado");
             ?>
         </div>
     </body>
