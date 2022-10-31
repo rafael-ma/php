@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    background-color: blueviolet;
+}
+
+legend {
+    position: relative;
+    bottom: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    font-variant-caps: small-caps;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+    display: inline;
+    width: auto;
+    position: relative;
+    top: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 5px 15px 15px;
+    box-shadow:3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+::placeholder {
+    color: rgba(137, 43, 226, 0.3);
+}
+
+input {
+    border: 1.5px solid blueviolet;
+    border-radius: 8px;
+}
+
+input::-moz-selection {
+    border: 3px solid blueviolet;
+}
+
+button {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 265px;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 15px;
+    box-shadow:3px 3px 10px 3px rgba(0, 0, 0, 0.3);
+    color: blueviolet;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    font-size: 1em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

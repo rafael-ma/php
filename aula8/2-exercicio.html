@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <div>
+            <form action="2.php" method="post">
+                <fieldset>
+                    <legend>Formulário</legend>
+                    <label for="inome">Nome: </label>
+                    <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Nome Completo" size="34">
+                    <p>Sexo:
+                        <input type="radio" name="sexo" id="imas" value="masculino" checked required>
+                            <label for="imas">Masculino</label>
+                        <input type="radio" name="sexo" id="ifem" value="feminino" required>
+                            <label for="ifem">Feminino</label><br>
+                    </p>
+                    <label for="iano">Ano de nascimento: </label>
+                    <input type="number" name="ano" id="iano" placeholder="YYYY" autocomplete="bday-year">
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>
