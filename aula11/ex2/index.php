@@ -4,14 +4,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../style.css">
-        <title>Testando PHP</title>
+        <title>Contador</title>
     </head>
     <body>
-       <h1>Testando PHP</h1>
-       
-       <?php 
-            echo "<h2>Olá mundo!</h2>";
-       ?>
+        <?php
+            $numero = 10;
+
+            while($numero >= 1) {
+                echo($numero . '<br>');
+                $numero--;
+            }
+        ?>
     </body>
 </html>
